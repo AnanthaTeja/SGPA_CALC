@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.main {
+  background: 322a2a;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.navbar {
+  width: 1400px;
+  height: 90px;
+  margin: none;
+  background-color: transparent;
+  margin-right: none;
+}
+
+.navbar h1 {
+  width: 100%;
+  height: 100px;
+  color: blue;
+  margin-left: 10px;
+}
+.navbar h1 span {
+  color: rgb(160, 130, 72);
+}
+
+.logo {
+  width: 200px;
+  height: 90px;
+  float: left;
+}
+input {
+  height: 25px;
+  background-color: rgb(221, 222, 208);
+  border: none;
+}
+p {
+  margin-left: 50px;
+  color: aliceblue;
+}
+[id="sgpaTable"] {
+  width: 800px;
+  border-collapse: collapse;
+  margin: 50px;
+}
+[id="sgpaTable"] th,
+td {
+  padding: 8px;
+  text-align: left;
+  background-color: 55608f;
+  border-bottom: 1px solid #961c1c;
+}
+[id="sgpaTable"] tr:nth-child(even) {
+  background-color: #322a2a;
+}
+[id="sgpaTable"] tr:nth-child(odd) {
+  background: rgb(255, 246, 246);
+}
+#addButton {
+  margin-top: 10px;
+}
+.addButton {
+  width: 100px;
+  height: 40px;
+  background-color: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
+  color: rgb(136, 49, 250);
+  border: 1px saddlebrown;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: none;
+  transition: 0.5s;
+}
+.addButton:hover {
+  background-color: black;
+  color: wheat;
+}
+.calculateButton {
+  width: 200px;
+  height: 40px;
+  background-color: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
+  color: rgb(136, 49, 250);
+  border: 1px saddlebrown;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: none;
+  transition: 0.5s;
+}
+#result {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#result strong {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.in {
+  margin-left: 50px;
+}
+#inp {
+  border: none;
+  background-color: #8da3a4;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+#inp:hover {
+  background-color: #322a2a;
+  color: white;
+}
+#addButton {
+  width: 100px;
+  height: 40px;
+  background-color: linear-gradient(120.55deg, #ff4040 18.56%, #a20bd8 98.01%);
+  color: rgb(136, 49, 250);
+
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: none;
+  transition: 0.5s;
+}
+#addButton:hover {
+  transition: 1s;
+  background-color: black;
+  color: aqua;
+}
+#calculateButton {
+  width: auto;
+  height: 40px;
+  background-color: linear-gradient(120.55deg, #ff4040 18.56%, #a20bd8 98.01%);
+  color: rgb(136, 49, 250);
+  border: 1px saddlebrown;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: none;
+  transition: 0.5s;
+}
+#calculateButton:hover {
+  transition: 1s;
+  background-color: black;
+  color: aqua;
+}
+.grade {
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+  width: 400px;
+  background-color: transparent, 50%;
+  height: 100px;
+}
+[id="grade"] {
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+  width: 40px;
+  height: 50px;
+}
+
+tr {
+  background-color: #97c0b0;
+}
+td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #8da3a4;
+}
+td.highlight {
+  background-color: #ff7f00;
+  color: #ffffff;
+}
+[id="grade"] tr:nth-child(odd) {
+  background-color: #f8f8f8;
+  color: #4a4a4a;
+}
