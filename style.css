@@ -25,7 +25,15 @@ img {
   height: 100px;
   color: blue;
   margin-left: 10px;
+  border: none;
 }
+select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 200px;
+}
+
 .navbar h1 span {
   color: rgb(160, 130, 72);
 }
