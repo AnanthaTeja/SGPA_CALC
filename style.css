@@ -18,24 +18,35 @@ img {
   margin: none;
   background-color: transparent;
   margin-right: none;
-}
-
-.navbar h1 {
-  width: 100%;
-  height: 100px;
-  color: blue;
   margin-left: 10px;
-  border: none;
-}
-select {
-  padding: 5px;
-  font-size: 16px;
-  border-radius: 5px;
-  width: 200px;
 }
 
+p[name="ti"] {
+  position: absolute;
+  left: 200px;
+  top: none;
+  width: 500px;
+  color: rgb(158, 218, 39);
+  text-shadow: 2px 3px 3px rgba(0, 0, 2, 5);
+}
+select[name="gradePoints[]"] {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5%;
+  width: 100px;
+  color: rgb(234, 234, 233);
+  background-color: #a39f9f;
+}
+select[name="gradePoints[]"] option {
+  color: cyan;
+}
+select[name="gradePoints[]"]:hover {
+  transition: 0s;
+  background-color: black;
+}
 .navbar h1 span {
-  color: rgb(160, 130, 72);
+  text-shadow: 3px 5px 2px rgba(0, 0, 2, 5);
+  color: rgb(255, 149, 0);
 }
 
 .logo {
@@ -48,7 +59,7 @@ input {
   background-color: rgb(221, 222, 208);
   border: none;
 }
-p {
+p.grades {
   margin-left: 50px;
   color: aliceblue;
 }
@@ -67,9 +78,7 @@ td {
 [id="sgpaTable"] tr:nth-child(even) {
   background-color: #322a2a;
 }
-[id="sgpaTable"] tr:nth-child(odd) {
-  background: rgb(255, 246, 246);
-}
+
 #addButton {
   margin-top: 10px;
 }
