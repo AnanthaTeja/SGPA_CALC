@@ -9,13 +9,12 @@
     <div class="main">
       <div class="navbar">
         <h1 class="title">
-          SGPA / CGPA <span>Calculator</span>
           <div class="logo">
             <a href="https://github.com/AnanthaTeja"><img src="AT3.jpeg" alt="DANT" /></a>
           </div>
+          <p name="ti">SGPA / CGPA <span>Calculator</span></p>
         </h1>
       </div>
-      
       <table id="sgpaTable">
         <tr>
           <th>Subject</th>
@@ -27,7 +26,7 @@
             <input type="text" name="subject[]" placeholder="Enter subject" />
           </td>
           <td>
-            <input type="number" name="credits[]" placeholder="Enter credits" />
+            <input type="number" name="credits[]" placeholder="Enter credits" oninput="javascript: if (this.value.length > 1) this.value = this.value.slice(0, 1);" />
           </td>
           <td>
             <select name="gradePoints[]">
@@ -48,8 +47,8 @@
         </tr>
       </table>
       <div class="in">
-        Number of Subjects : 
-        <input id="inp" type="number" name="subs" placeholder="Enter number of subjects">
+       <b>Number of Subjects : </b> 
+        <input id="inp" type="number" name="subs" placeholder="Enter number of subjects" oninput="javascript: if (this.value.length > 2) this.value = this.value.slice(0, 2);" />
       </div>
       <p class="grades">
        
@@ -151,10 +150,8 @@
               courseCredits.push(parseInt(credits[i].value));
               courseGrades.push(gradePoints[i].value);
             }
-
             // Perform the SGPA calculation using the Java code here
             var sgpa = Java.performSGPA(courseCredits, courseGrades);
-
             // Display the result
             var resultDiv = document.getElementById("result");
             resultDiv.innerHTML = "SGPA: <strong>" + sgpa + "</strong>";
