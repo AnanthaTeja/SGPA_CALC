@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  background: linear-gradient(45deg, #49a09d, #5f2c82);
+background: linear-gradient(98deg, #6e6672, #535353);
   font-family: sans-serif;
   font-weight: 100;
 }
 .main {
-  background: 322a2a;
+  background: fixed;
 }
 img {
   width: 80px;
